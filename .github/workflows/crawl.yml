@@ -1,0 +1,42 @@
+name: 爬取版本内容一览
+
+on:
+  schedule:
+    # UTC 02:00 = 北京时间 10:00,每天一次
+    - cron: '0 2 * * *'
+  workflow_dispatch: # 支持手动触发
+  push:
+    branches: [main]
+    paths:
+      - crawler/**
+      - .github/workflows/crawl.yml
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: 安装依赖
+        run: pip install -r crawler/requirements.txt
+
+      - name: 运行爬虫
+        run: python crawler/crawl.py
+
+      - name: 提交变更
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add manifest.json images/
+          if git diff --staged --quiet; then
+            echo "无新内容,跳过提交"
+          else
+            git commit -m "feat: 更新版本内容一览 $(date -u +%Y-%m-%d)"
+            git push
+          fi
