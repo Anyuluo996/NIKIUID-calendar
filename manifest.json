@@ -1,21 +1,7 @@
 {
-  "updated_at": "2026-06-24T09:28:16+0800",
-  "latest_version": "unknown_636",
+  "updated_at": "2026-06-24T09:30:10+0800",
+  "latest_version": "2.7",
   "versions": [
-    {
-      "version": "unknown_636",
-      "news_id": 636,
-      "title": "新闻《无限暖暖》2.0祷声起诸大地 | 版本内容一览2025-11-24",
-      "publish_date": "2025-11-24",
-      "news_url": "https://infinitynikki.nuanpaper.com/news/636",
-      "images": [
-        {
-          "filename": "00_AHHJTk6PwSx7jQIi.jpg",
-          "url": "https://webstatic.papegames.com/5af052bffce5c899/images/bg/AHHJTk6PwSx7jQIi.jpg",
-          "index": 0
-        }
-      ]
-    },
     {
       "version": "2.7",
       "news_id": 912,
@@ -135,6 +121,20 @@
         {
           "filename": "00_ov9qxh5ErwiwvSIv.jpg",
           "url": "https://webstatic.papegames.com/5af052bffce5c899/images/bg/ov9qxh5ErwiwvSIv.jpg",
+          "index": 0
+        }
+      ]
+    },
+    {
+      "version": "2.0",
+      "news_id": 636,
+      "title": "新闻《无限暖暖》2.0祷声起诸大地 | 版本内容一览2025-11-24",
+      "publish_date": "2025-11-24",
+      "news_url": "https://infinitynikki.nuanpaper.com/news/636",
+      "images": [
+        {
+          "filename": "00_AHHJTk6PwSx7jQIi.jpg",
+          "url": "https://webstatic.papegames.com/5af052bffce5c899/images/bg/AHHJTk6PwSx7jQIi.jpg",
           "index": 0
         }
       ]
