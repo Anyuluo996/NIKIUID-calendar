@@ -59,8 +59,13 @@ def safe_name(s: str, max_len: int = 50) -> str:
 
 
 def extract_version(title: str, news_id: int) -> str:
-    """从标题提取版本号,如 "2.7版本" → "2.7"。"""
+    """从标题提取版本号,如 "2.7版本" → "2.7", "2.0祷声" → "2.0"。"""
+    # 优先匹配 "X.Y版本"
     m = re.search(r"(\d+\.\d+)\s*版本", title or "")
+    if m:
+        return m.group(1)
+    # 兜底:匹配 "X.Y" 后跟中文(如 "2.0祷声起诸大地")
+    m = re.search(r"(\d+\.\d+)\s*[\u4e00-\u9fff]", title or "")
     if m:
         return m.group(1)
     return f"unknown_{news_id}"
