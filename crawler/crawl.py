@@ -229,8 +229,16 @@ def main():
             if i % 5 == 0 or i == len(targets):
                 print(f"  进度: {i}/{len(targets)}")
 
-    # 按版本号倒序(最新在前)
-    version_list.sort(key=lambda x: x["version"], reverse=True)
+    # 按版本号倒序(最新在前);数字版本号优先于 unknown_
+    def _sort_key(v):
+        ver = v["version"]
+        # 数字版本号(如 "2.7")转 tuple 排序,unknown_ 排到最后
+        if re.match(r"^\d+\.\d+$", ver):
+            parts = [int(x) for x in ver.split(".")]
+            return (0, parts)  # (0, [...]) < (1, ...)
+        return (1, [0])
+
+    version_list.sort(key=_sort_key, reverse=True)
 
     # 4. 生成 manifest.json
     manifest = {
