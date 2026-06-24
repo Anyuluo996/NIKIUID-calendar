@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-24T09:25:44+0800",
+  "updated_at": "2026-06-24T09:28:16+0800",
   "latest_version": "unknown_636",
   "versions": [
     {
@@ -136,6 +136,44 @@
           "filename": "00_ov9qxh5ErwiwvSIv.jpg",
           "url": "https://webstatic.papegames.com/5af052bffce5c899/images/bg/ov9qxh5ErwiwvSIv.jpg",
           "index": 0
+        }
+      ]
+    },
+    {
+      "version": "1.11",
+      "news_id": 567,
+      "title": "新闻《无限暖暖》1.11版本拾光季 | 版本内容一览2025-10-26",
+      "publish_date": "2025-10-26",
+      "news_url": "https://infinitynikki.nuanpaper.com/news/567",
+      "images": [
+        {
+          "filename": "00_yA4WmWnVYwJ7Yu5M.png",
+          "url": "https://webstatic.papegames.com/5af052bffce5c899/images/bg/yA4WmWnVYwJ7Yu5M.png",
+          "index": 0
+        },
+        {
+          "filename": "01_sHhVG4O964TsOCXU.png",
+          "url": "https://webstatic.papegames.com/5af052bffce5c899/images/bg/sHhVG4O964TsOCXU.png",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "version": "1.10",
+      "news_id": 530,
+      "title": "新闻《无限暖暖》1.10版本丰收季 | 版本内容一览2025-09-26",
+      "publish_date": "2025-09-26",
+      "news_url": "https://infinitynikki.nuanpaper.com/news/530",
+      "images": [
+        {
+          "filename": "00_wduqx3x3UnUmBZkG.jpg",
+          "url": "https://webstatic.papegames.com/5af052bffce5c899/images/bg/wduqx3x3UnUmBZkG.jpg",
+          "index": 0
+        },
+        {
+          "filename": "01_gH57wLXN3pJPgsMg.jpg",
+          "url": "https://webstatic.papegames.com/5af052bffce5c899/images/bg/gH57wLXN3pJPgsMg.jpg",
+          "index": 1
         }
       ]
     },
@@ -295,44 +333,6 @@
           "filename": "04_aw8zlsZLiCQFbhG8.jpg",
           "url": "https://webstatic.papegames.com/5af052bffce5c899/images/bg/aw8zlsZLiCQFbhG8.jpg",
           "index": 4
-        }
-      ]
-    },
-    {
-      "version": "1.11",
-      "news_id": 567,
-      "title": "新闻《无限暖暖》1.11版本拾光季 | 版本内容一览2025-10-26",
-      "publish_date": "2025-10-26",
-      "news_url": "https://infinitynikki.nuanpaper.com/news/567",
-      "images": [
-        {
-          "filename": "00_yA4WmWnVYwJ7Yu5M.png",
-          "url": "https://webstatic.papegames.com/5af052bffce5c899/images/bg/yA4WmWnVYwJ7Yu5M.png",
-          "index": 0
-        },
-        {
-          "filename": "01_sHhVG4O964TsOCXU.png",
-          "url": "https://webstatic.papegames.com/5af052bffce5c899/images/bg/sHhVG4O964TsOCXU.png",
-          "index": 1
-        }
-      ]
-    },
-    {
-      "version": "1.10",
-      "news_id": 530,
-      "title": "新闻《无限暖暖》1.10版本丰收季 | 版本内容一览2025-09-26",
-      "publish_date": "2025-09-26",
-      "news_url": "https://infinitynikki.nuanpaper.com/news/530",
-      "images": [
-        {
-          "filename": "00_wduqx3x3UnUmBZkG.jpg",
-          "url": "https://webstatic.papegames.com/5af052bffce5c899/images/bg/wduqx3x3UnUmBZkG.jpg",
-          "index": 0
-        },
-        {
-          "filename": "01_gH57wLXN3pJPgsMg.jpg",
-          "url": "https://webstatic.papegames.com/5af052bffce5c899/images/bg/gH57wLXN3pJPgsMg.jpg",
-          "index": 1
         }
       ]
     }
