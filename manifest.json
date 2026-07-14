@@ -1,7 +1,21 @@
 {
-  "updated_at": "2026-07-13T13:20:33+0800",
-  "latest_version": "2.7",
+  "updated_at": "2026-07-14T12:37:27+0800",
+  "latest_version": "2.8",
   "versions": [
+    {
+      "version": "2.8",
+      "news_id": 962,
+      "title": "新闻《无限暖暖》2.8版本「黄金尘」| 版本内容一览2026-07-14",
+      "publish_date": "2026-07-14",
+      "news_url": "https://infinitynikki.nuanpaper.com/news/962",
+      "images": [
+        {
+          "filename": "00_CUFihpYqe0QYsTId.png",
+          "url": "https://webstatic.papegames.com/5af052bffce5c899/images/bg/CUFihpYqe0QYsTId.png",
+          "index": 0
+        }
+      ]
+    },
     {
       "version": "2.7",
       "news_id": 912,
