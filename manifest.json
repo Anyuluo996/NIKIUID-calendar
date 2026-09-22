@@ -1,7 +1,21 @@
 {
-  "updated_at": "2026-09-21T15:17:39+0800",
-  "latest_version": "2.9",
+  "updated_at": "2026-09-22T14:53:50+0800",
+  "latest_version": "2.10",
   "versions": [
+    {
+      "version": "2.10",
+      "news_id": 1054,
+      "title": "新闻《无限暖暖》2.10版本「金羽的裁决」| 版本内容一览2026-09-22",
+      "publish_date": "2026-09-22",
+      "news_url": "https://infinitynikki.nuanpaper.com/news/1054",
+      "images": [
+        {
+          "filename": "00_vTdmBWQglC8AvXT0.png",
+          "url": "https://webstatic.papegames.com/5af052bffce5c899/images/bg/vTdmBWQglC8AvXT0.png",
+          "index": 0
+        }
+      ]
+    },
     {
       "version": "2.9",
       "news_id": 1013,
