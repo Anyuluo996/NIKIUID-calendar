@@ -1,7 +1,26 @@
 {
-  "updated_at": "2026-11-24T19:41:58+0800",
-  "latest_version": "2.11",
+  "updated_at": "2026-11-25T18:35:37+0800",
+  "latest_version": "3.0",
   "versions": [
+    {
+      "version": "3.0",
+      "news_id": 1166,
+      "title": "新闻《无限暖暖》3.0版本「昨日之城，明日之声」 | 版本内容一览2026-11-25",
+      "publish_date": "2026-11-25",
+      "news_url": "https://infinitynikki.nuanpaper.com/news/1166",
+      "images": [
+        {
+          "filename": "00_2ZC9gTTV2u1r7I7Z.png",
+          "url": "https://webstatic.papegames.com/5af052bffce5c899/activity/images/20261125/2ZC9gTTV2u1r7I7Z.png",
+          "index": 0
+        },
+        {
+          "filename": "01_krlkNpaTHIEgfSpP.png",
+          "url": "https://webstatic.papegames.com/5af052bffce5c899/activity/images/20261125/krlkNpaTHIEgfSpP.png",
+          "index": 1
+        }
+      ]
+    },
     {
       "version": "2.11",
       "news_id": 1087,
